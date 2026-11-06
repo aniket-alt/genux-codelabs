@@ -26,13 +26,13 @@ hook a real model into `real_llm()` and set `USE_REAL_LLM=1`.
 
 | Part | Folder | Concept | Video |
 |---|---|---|---|
-| 1 | `01_foundations/` | the 4 modes from scratch, catalog validation, sandbox |  |
+| 1 | `01_foundations/` | the 4 modes from scratch, catalog validation, sandbox | [Watch](https://drive.google.com/file/d/1wwXEw1jpcPkT5HZTzk-7bMdXNlpTqcEj/view?usp=sharing) |
 | 2 | `02_ag_ui/` | **AG-UI**: SSE event stream (text, tool-call, state snapshot/JSON-Patch events) | [Watch](https://drive.google.com/file/d/1fAB0OZ6NpBmuHAl0iJhd3IBuhIJYx-cH/view?usp=sharing) |
-| 3 | `03_a2ui/` | **A2UI**: flat component list + separate data model + `beginRendering`, JSONL | _add link_ |
-| 4 | `04_openui_lang/` | **OpenUI Lang**: token-light DSL, parser + streaming | _add link_ |
-| 5 | `05_json_render/` | **json-render**: catalog -> JSON Schema, flat spec, JSON-Patch streaming, action allow-list | _add link_ |
-| 6 | `06_mcp_apps/` | **MCP Apps**: real JSON-RPC stdio server, `ui://` resource, sandboxed host | _add link_ |
-| 7 | `07_harness_genui/` | **Harness**: agent loop where `render_ui` is just another tool | _add link_ |
+| 3 | `03_a2ui/` | **A2UI**: flat component list + separate data model + `beginRendering`, JSONL | [Watch](https://drive.google.com/file/d/1WWCDLE6f2qCP0-stfXdlRqjmT0yB8MSF/view?usp=sharing) |
+| 4 | `04_openui_lang/` | **OpenUI Lang**: token-light DSL, parser + streaming | [Watch](https://drive.google.com/file/d/1bTA0BVw2YY6rx0VFeCBEoXIiaMmYOmTK/view?usp=sharing) |
+| 5 | `05_json_render/` | **json-render**: catalog -> JSON Schema, flat spec, JSON-Patch streaming, action allow-list | [Watch](https://drive.google.com/file/d/1LBvjc9eVSwhHeKRZPK27VG4uuZAukF_W/view?usp=sharing) |
+| 6 | `06_mcp_apps/` | **MCP Apps**: real JSON-RPC stdio server, `ui://` resource, sandboxed host | [Watch](https://drive.google.com/file/d/1Or3Urwt8W9_s-dD3QwfoHfJ6IVymhGD_/view?usp=sharing) |
+| 7 | `07_harness_genui/` | **Harness**: agent loop where `render_ui` is just another tool | [Watch](https://drive.google.com/file/d/1-Pdnj_Qn4gQBtl4gw4rPpzxe5vPtA-b1/view?usp=sharing) |
 
 `common/catalog.py` = component catalog, validator, renderer, sandbox. `common/mock_llm.py` = what the model emits per mode.
 
