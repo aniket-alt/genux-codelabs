@@ -26,8 +26,8 @@ hook a real model into `real_llm()` and set `USE_REAL_LLM=1`.
 
 | Part | Folder | Concept | Video |
 |---|---|---|---|
-| 1 | `01_foundations/` | the 4 modes from scratch, catalog validation, sandbox | _add YouTube link_ |
-| 2 | `02_ag_ui/` | **AG-UI**: SSE event stream (text, tool-call, state snapshot/JSON-Patch events) | _add link_ |
+| 1 | `01_foundations/` | the 4 modes from scratch, catalog validation, sandbox |  |
+| 2 | `02_ag_ui/` | **AG-UI**: SSE event stream (text, tool-call, state snapshot/JSON-Patch events) | [Watch](https://drive.google.com/file/d/1fAB0OZ6NpBmuHAl0iJhd3IBuhIJYx-cH/view?usp=sharing) |
 | 3 | `03_a2ui/` | **A2UI**: flat component list + separate data model + `beginRendering`, JSONL | _add link_ |
 | 4 | `04_openui_lang/` | **OpenUI Lang**: token-light DSL, parser + streaming | _add link_ |
 | 5 | `05_json_render/` | **json-render**: catalog -> JSON Schema, flat spec, JSON-Patch streaming, action allow-list | _add link_ |
